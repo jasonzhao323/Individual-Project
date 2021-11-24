@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="Simulation of our Solar System">
+        <title>Space Simulation</title>
+        <link rel="stylesheet" href="globals.css">
+    </head>
+
+    <body>
+
+        <label class="prompt">What planet would you like to add something to?
+            <select>
+                <option value="value_mercury">Mercury</option>
+                <option value="value_venus">Venus</option>
+                <option value="value_earth">Earth</option>
+                <option value="value_mars">Mars</option>
+                <option value="value_jupiter">Jupiter</option>
+                <option value="value_saturn">Saturn</option>
+                <option value="value_uranus">Uranus</option>
+                <option value="value_neptune">Neptune</option>
+            </select>
+        </label>
+
+        <h1>Welcome to the Solar System Simulation!</h1>
+        <br>
+
+        <h2>Add A Satellite
+        <form id='satellite_prompt'>
+            <input id='satellite_color' type="color" placeholder="color">
+            <input id='satellite_radius' type="text" placeholder="radius">
+            <input id='satellite_speed' type="text" placeholder="speed">
+            <input type="submit" value="Add satellite">
+        </form>
+        </h2>
+
+
+        <br>
+
+        <label class="prompt">What phenomena would you like to add to the solar system?
+            <select>
+                <option value="value_black_hole">Black Hole</option>
+                <option value="value_comet">Comet</option>
+                <option value="value_earth">UFO</option>
+            </select>
+        </label>
+        
+        <div id="sun" class="spatial_object"></div>
+        <div id="mercury" class="spatial_object terrestrial"></div>
+        <div id="venus" class="spatial_object terrestrial"></div>
+        <div id="earth" class="spatial_object terrestrial"></div>
+        <div id="mars" class="spatial_object terrestrial"></div>
+        <div id="jupiter" class="spatial_object terrestrial"></div>
+        <div id="saturn" class="spatial_object terrestrial"></div>
+        <div id="uranus" class="spatial_object terrestrial"></div>
+        <div id="neptune" class="spatial_object terrestrial"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+        <div class="spatial_object terrestrial_orbit"></div>
+
+
+
+    </body>
+    <script type="text/javascript" src="examples.js"></script>
+    <script type="text/javascript">
+    </script>
+</html>

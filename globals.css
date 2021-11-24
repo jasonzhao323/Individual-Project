@@ -1,0 +1,132 @@
+body{
+    background: black;
+    width: 90%;
+    height: 90%;
+}
+
+h1{
+    right: 10px;
+    float: right;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 0);
+    width: 200px;
+}
+
+h2{
+    left: 10px;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 0);
+    width: 200px;
+}
+#satellite_prompt{
+    left: 10px;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 0);
+    width: 500px;
+}
+
+.prompt {
+    left: 10px;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+
+.spatial_object{
+    border-radius:50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.terrestrial_orbit {
+    border: 0.5px solid rgb(185, 129, 183);
+    position: absolute;
+    margin: auto;
+}
+
+.satellite_orbit {
+    border: 0.5px solid rgb(185, 129, 183);
+    position: absolute;
+    margin: auto;
+
+}
+
+.terrestrial{
+
+}
+
+.satellite{
+
+}
+
+
+#sun{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgb(230, 102, 39);
+    z-index: 20;
+}
+
+
+#mercury{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(199, 147, 4);
+}
+
+#venus{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(175, 64, 0);
+}
+
+#earth{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: rgb(8, 197, 255);
+}
+
+#mars{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(226, 71, 9);
+}
+
+#jupiter{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(233, 152, 105);
+}
+
+#saturn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(180, 110, 70);
+}
+
+#uranus{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(48, 19, 212);
+}
+
+#neptune{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(36, 48, 214);
+}
